@@ -13,20 +13,3 @@
 *   **Backend:** Python, FastAPI, Uvicorn
 *   **Frontend:** HTML, CSS, Vanilla JavaScript
 *   **AI:** Pollinations Text AI
-
-## ⚙️ Local Setup
-1. Clone this repository.
-2. Install the requirements:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the server:
-   ```bash
-   uvicorn main:app --host 127.0.0.1 --port 8020
-   ```
-4. Open your browser and go to `http://localhost:8020`
-
-## 🌐 Deployment (Render)
-This project is fully ready to be deployed on Render as a Web Service. 
-*   **Build Command:** `pip install -r requirements.txt`
-*   **Start Command:** `uvicorn main:app --host 0.0.0.0 --port $PORT`
